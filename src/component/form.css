@@ -1,0 +1,71 @@
+  
+  .App, .List {
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgb(74, 248, 239) ,rgb(224, 146, 30) , rgb(88, 131, 211),rgb(223, 126, 210),rgb(226, 99, 116));
+  }
+  
+  .List {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  
+  .forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  form {
+    text-align: center;
+  }
+  
+  .form-group {
+    font-size: 24px;
+    margin: 40px 0px;
+  }
+  
+  .form-input, .btn {
+    font-size: 24px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 30px;
+    border-width: 3px;
+  }
+  
+  .form-input:focus {
+    background-color: lightblue;
+    border-color: blue;
+  }
+  
+  .btn {
+    padding: 10px 80px;
+    cursor: pointer;
+    background-color: lightblue;
+  }
+  
+  .btn:hover {
+    background-color: cyan;
+  }
+  
+  .Data {
+    width: 80%;
+    margin: 40px auto;
+    background-color: lightblue;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .employee {
+    width: 44%;
+    padding: 20px 10px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 20px 10px;
+    text-align: center;
+    background-color: lightpink;
+  }
